@@ -1,7 +1,7 @@
 MySGrowLED
 ==========
 
-![KiCad 3D view](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/MySGrowLED_3D.jpg)
+![KiCad 3D view](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/MySGrowLED_3D.png)
 
 Description
 -----------
