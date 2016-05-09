@@ -3,6 +3,7 @@ MySGrowLED
 
 ![KiCad 3D view](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/MySGrowLED_3D.png)
 
+
 Description
 -----------
 
@@ -17,8 +18,10 @@ This module allow you to:
 - monitor external temperature by plugging external OneWire sensors
 - monitor any additional parameters using additional I2C modules such as temperature, humidity, light levels, barometric pressure, etc...
 
+
 Ordering
 --------
+
 Gerber files are included, so you can order these PCB at your favorite PCB fab house.
 For an easy ordering process you can directly order these PCB from [DirtyPCB](http://dirtypcbs.com/view.php?share=19108&accesskey=2ba6d152bdb819f09c5eb2b8370af154) or [OSH Park](https://oshpark.com/shared_projects/yTV72xyU) without having to do anything.
 Components are highly customizable and the default list may not be the best for your specific use, but it will work for most of the cases. Double check that the power supplies, voltage regulators and mosfets are compatible with your project.
@@ -26,6 +29,7 @@ Components are highly customizable and the default list may not be the best for 
 
 Options
 -------
+
 This board is designed to be compatible with [MySensors](http://www.mysensors.org) but can be used on its own (timer or sensors to control the lights) or another system using 2.4GHz communication if you adapt the arduino code.
 
 ### ATSHA204 module
@@ -41,7 +45,7 @@ You will also need to burn a compatible bootloader to your arduino (DualOptiBoot
 Assembly
 --------
 
-Once you received your dirty package of PCBs (or any other Fab house) is received start inspecting it carefully to look for scratches, dents, or anything that seems wrong. Do not use the board if you have any concerns.
+Once you received your dirty package of PCBs (or any other Fab house) start by inspecting it carefully to look for scratches, dents, or anything that seems wrong. Do not use the board if you have any concerns.
 ![DirtyPackage](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB1.jpg)
 
 Markings are a little off, but nothing wrong on this one, good to go!
@@ -74,12 +78,13 @@ Usage examples
 --------------
 
 This module can be used on the DIY LED light exemple included (PCB compared to breadboard design)
-![PCB vs BreadBoard](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB9.jpg)
+![PCB vs BreadBoard](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB8.jpg)
 ![MySGrowLED](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB9.jpg)
 
 Another possible use to control a germination chamber inside a plastic container (PCB compared to previous protoboard design) 
 ![PCB vs ProtoBoard](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB10.jpg)
 ![SeedBox](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB11.jpg)
+
 
 Revision history
 ----------------
