@@ -40,7 +40,7 @@ String Location = "Plants";       // Location of the device, will be sent to the
 // MySensors
 #define MY_RADIO_NRF24          // Enable and select radio type attached
 #include <SPI.h>
-#include <MySensor.h>
+#include <MySensors.h>
 #define SN "MySGrowLED"         // Name of the sketch
 #define SV "2.0"                // Version (2.0 : use MySensors 2.0)
 boolean metric = true;          // Use SI by default

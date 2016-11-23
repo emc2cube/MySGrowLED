@@ -1,7 +1,8 @@
-PCBs
+#PCBs
 *bak
 *.dsn
 *.ses
+Kicad
 
 #### Default settings ####
 ## Core latex/pdflatex auxiliary files:
