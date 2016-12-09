@@ -23,7 +23,7 @@ Ordering
 --------
 
 Gerber files are included, so you can order these PCB at your favorite PCB fab house.
-For an easy ordering process you can directly order these PCB from [DirtyPCB](http://dirtypcbs.com/view.php?share=19108&accesskey=2ba6d152bdb819f09c5eb2b8370af154) or [OSH Park](https://oshpark.com/shared_projects/yTV72xyU) without having to do anything.
+For an easy ordering process you can directly order these PCB from [DirtyPCBs](http://dirtypcbs.com/store/designer/details/10880/873/mysgrowled) or [OSH Park](https://oshpark.com/shared_projects/yTV72xyU) without having to do anything.
 Components are highly customizable and the default list may not be the best for your specific use, but it will work for most of the cases. Double check that the power supplies, voltage regulators and mosfets are compatible with your project.
 
 
