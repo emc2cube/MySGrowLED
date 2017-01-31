@@ -23,7 +23,10 @@ Ordering
 --------
 
 Gerber files are included, so you can order these PCB at your favorite PCB fab house.
-For an easy ordering process you can directly order these PCB from [DirtyPCBs](http://dirtypcbs.com/store/designer/details/10880/873/mysgrowled) or [OSH Park](https://oshpark.com/shared_projects/yTV72xyU) without having to do anything.
+For an easy ordering process you can directly order these PCB from different manufacturer without having to do anything:
+- [PCBs.io](https://PCBs.io/share/4oldQ) 4 for $11.62, black 1.2mm PCB, ENIG finish.
+- [DirtyPCBs](http://dirtypcbs.com/store/designer/details/10880/873/mysgrowled) ~10 for $15.95, multiple colors and PCB thickness, HASL finish.
+- [OSH Park](https://oshpark.com/shared_projects/yTV72xyU) 3 for $14.95, purple 1.6mm PCB, ENIG finish.
 Components are highly customizable and the default list may not be the best for your specific use, but it will work for most of the cases. Double check that the power supplies, voltage regulators and mosfets are compatible with your project.
 
 
@@ -77,7 +80,7 @@ You can upload MySGrowPCB_test to your arduino to test the setup:
 Usage examples
 --------------
 
-This module can be used on the DIY LED light exemple included (PCB compared to breadboard design)
+This module can be used on the DIY LED light example included (PCB compared to breadboard design)
 ![PCB vs BreadBoard](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB8.jpg)
 ![MySGrowLED](https://raw.githubusercontent.com/emc2cube/MySGrowLED/master/img/PCB9.jpg)
 

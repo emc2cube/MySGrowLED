@@ -42,7 +42,7 @@ String Location = "Plants";       // Location of the device, will be sent to the
 #include <SPI.h>
 #include <MySensors.h>
 #define SN "MySGrowLED"         // Name of the sketch
-#define SV "2.0"                // Version (2.0 : use MySensors 2.0)
+#define SV "2.1.1"              // Version (2.0 : use MySensors 2.0)
 boolean metric = true;          // Use SI by default
 #define MESSAGEWAIT 500         // Wait a few ms between radio Tx
 
@@ -103,7 +103,7 @@ MyMessage msgDallas(CHILD_ID_DALLAS, V_TEMP);
 
 void setup()
 {
-  metric = getConfig().isMetric;
+  metric = getControllerConfig().isMetric;  // was getConfig().isMetric; before MySensors v2.1.1
 
 #if defined LED_CONTROL
   pinMode(MosLED_PIN, OUTPUT);
