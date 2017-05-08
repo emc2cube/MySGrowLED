@@ -42,7 +42,7 @@ String Location = "Plants";       // Location of the device, will be sent to the
 #include <SPI.h>
 #include <MySensors.h>
 #define SN "MySGrowLED"         // Name of the sketch
-#define SV "2.1.1"              // Version (2.0 : use MySensors 2.0)
+#define SV "2.1.1"              // Version (2.x : use MySensors 2.x)
 boolean metric = true;          // Use SI by default
 #define MESSAGEWAIT 500         // Wait a few ms between radio Tx
 
